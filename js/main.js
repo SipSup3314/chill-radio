@@ -48,7 +48,7 @@
                             children: Object(k.jsx)("a", {
                                 className: "site-nav-logo",
                                 href: "/chill-radio",
-                                children: Object(k.jsx)("img", { alt: "Chill Radio", src: "img/logo.png" }),
+                                children: Object(k.jsx)("img", { alt: "Chill Radio", src: "img/chill-logo.png" }),
                             }),
                         }),
                         Object(k.jsx)("div", {
@@ -231,7 +231,7 @@
                     return Object(k.jsxs)("div", {
                         className: t.playing ? "meta-display thumb meta-display-visible" : "meta-display thumb",
                         children: [
-                            Object(k.jsx)("img", { alt: "album art", "data-meta": "picture", src: t.fastConnection ? t.currentSong.art : "https://cdn-media-1.freecodecamp.org/code-radio/cover_placeholder.gif" }),
+                            Object(k.jsx)("img", { alt: "album art", "data-meta": "picture", src: t.fastConnection ? t.currentSong.art : "img/cover_placeholder.gif" }),
                             Object(k.jsxs)("div", {
                                 className: "now-playing",
                                 children: [
@@ -451,7 +451,7 @@
                                                             {
                                                                 className: "recent-song-info",
                                                                 children: [
-                                                                    Object(k.jsx)("img", { alt: "", role: "presentation", src: a ? t.art : "https://cdn-media-1.freecodecamp.org/code-radio/cover_placeholder.gif" }),
+                                                                    Object(k.jsx)("img", { alt: "", role: "presentation", src: a ? t.art : "img/cover_placeholder.gif" }),
                                                                     Object(k.jsxs)("div", {
                                                                         className: "recent-song-meta",
                                                                         children: [Object(k.jsx)("p", { children: t.title }), Object(k.jsxs)("p", { children: [" ", t.artist] }), Object(k.jsxs)("p", { children: [" ", t.album] })],
@@ -586,7 +586,7 @@
                 X = (a(88), new j.a("wss://coderadio-admin.freecodecamp.org/api/live/nowplaying/coderadio")),
                 $ = "coderadio-volume";
             X.on("error", function (t, e) {
-                x.a({ message: "Oh my! NchanSubscriber error: " + e }), x.b(t);
+                x.a({ message: "Error! NchanSubscriber error: " + e }), x.b(t);
             });
             var tt = (function (t) {
                 Object(b.a)(a, t);

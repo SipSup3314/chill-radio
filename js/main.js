@@ -1,7 +1,6 @@
 // Made by 3kh0
 // https://github.com/3kh0/chill-radio
 
-
 (this.webpackJsonpcoderadio = this.webpackJsonpcoderadio || []).push([
     [0],
     {
@@ -48,8 +47,8 @@
                             className: "site-nav-middle",
                             children: Object(k.jsx)("a", {
                                 className: "site-nav-logo",
-                                href: "https://coderadio.freecodecamp.org/",
-                                children: Object(k.jsx)("img", { alt: "Code Radio", src: "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" }),
+                                href: "/chill-radio",
+                                children: Object(k.jsx)("img", { alt: "Chill Radio", src: "img/logo.png" }),
                             }),
                         }),
                         Object(k.jsx)("div", {
@@ -60,9 +59,8 @@
                                     className: "nav" + (a ? " show-main-nav-items" : ""),
                                     id: "nav",
                                     children: [
-                                        { href: "https://www.freecodecamp.org/news/", text: "News" },
-                                        { href: "https://www.freecodecamp.org/forum/", text: "Forum" },
-                                        { href: "https://www.freecodecamp.org/learn/", text: "Learn" },
+                                        { href: "/", text: "Home" },
+                                        { href: "https://github.com/3kh0/chill-radio", text: "GitHub" },
                                     ].map(function (t, e) {
                                         return Object(k.jsx)("li", { children: Object(k.jsx)("a", { href: t.href, rel: "noopener noreferrer", target: "_blank", children: t.text }) }, e);
                                     }),
@@ -204,7 +202,7 @@
                         children: [
                             Object(k.jsxs)("div", {
                                 className: "under-header-content",
-                                children: [Object(k.jsx)("h1", { className: "site-title", children: "Welcome to Code Radio." }), Object(k.jsx)("h2", { className: "site-description", children: "24/7 music designed for coding." })],
+                                children: [Object(k.jsx)("h1", { className: "site-title", children: "Welcome to Chill Radio." }), Object(k.jsx)("h2", { className: "site-description", children: "24/7 music designed for studying/reading/relaxing." })],
                             }),
                             C.isBrowser &&
                                 Object(k.jsxs)(k.Fragment, {
@@ -588,7 +586,7 @@
                 X = (a(88), new j.a("wss://coderadio-admin.freecodecamp.org/api/live/nowplaying/coderadio")),
                 $ = "coderadio-volume";
             X.on("error", function (t, e) {
-                x.a({ message: "NchanSubscriber error: " + e }), x.b(t);
+                x.a({ message: "Oh my! NchanSubscriber error: " + e }), x.b(t);
             });
             var tt = (function (t) {
                 Object(b.a)(a, t);

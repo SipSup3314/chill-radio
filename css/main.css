@@ -35,9 +35,13 @@ p {
 }
 @media only screen and (min-width: 768px) {
     .animation {
-        background-image: url(/chill-radio/img/vapor.gif);
+        background-image: url(/chill-radio/img/background.gif);
+        background-position: left bottom;
+        background-repeat: no-repeat;
         display: block;
-        height: 100%;
+        height: calc(100% - 158px);
+        margin-top: 88px;
+        position: relative;
         width: 100%;
     }
 }

@@ -35,7 +35,7 @@ p {
 }
 @media only screen and (min-width: 768px) {
     .animation {
-        background-image: url(/img/synth.gif);
+        background-image: url(img/vapor.gif);
         background-position: 0 100%;
         background-repeat: no-repeat;
         display: block;
@@ -45,17 +45,6 @@ p {
         width: 100%;
     }
 }
-/*
-.animation:before {
-    background-image: url(https://cdn-media-1.freecodecamp.org/code-radio/Saron3.gif);
-    bottom: 0;
-    content: "";
-    height: 767px;
-    left: 388px;
-    position: absolute;
-    width: 509px;
-}
-*/
 .site-title {
     font-size: 30px;
 }

@@ -39,7 +39,7 @@ p {
         background-position: left bottom;
         background-repeat: no-repeat;
         display: block;
-        height: calc(100% - 158px);
+        height: 100%;
         margin-top: 88px;
         position: relative;
         width: 100%;

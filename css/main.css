@@ -35,7 +35,7 @@ p {
 }
 @media only screen and (min-width: 768px) {
     .animation {
-        background-image: url(img/vapor.gif);
+        background-image: url(/chill-radio/img/vapor.gif);
         background-position: 0 100%;
         background-repeat: no-repeat;
         display: block;

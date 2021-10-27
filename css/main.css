@@ -35,7 +35,7 @@ p {
 }
 @media only screen and (min-width: 768px) {
     .animation {
-        background-image: url(https://cdn-media-1.freecodecamp.org/code-radio/bg.jpg);
+        background-image: url(/img/synth.gif);
         background-position: 0 100%;
         background-repeat: no-repeat;
         display: block;
@@ -45,6 +45,7 @@ p {
         width: 100%;
     }
 }
+/*
 .animation:before {
     background-image: url(https://cdn-media-1.freecodecamp.org/code-radio/Saron3.gif);
     bottom: 0;
@@ -54,6 +55,7 @@ p {
     position: absolute;
     width: 509px;
 }
+*/
 .site-title {
     font-size: 30px;
 }
@@ -419,7 +421,7 @@ footer {
     background-repeat: no-repeat;
     border-radius: 5px;
     box-sizing: border-box;
-    content: "Push Play or Space Bar to Start Music";
+    content: "Push Play or Space Bar to Start Music!";
     display: none;
     font-size: 21px;
     font-weight: 700;
